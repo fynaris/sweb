@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/mijia/sweb/server"
+	"github.com/fynaris/sweb/server"
 	"golang.org/x/net/context"
 )
 

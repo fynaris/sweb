@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/mijia/sweb/log"
+	"github.com/fynaris/sweb/log"
 	"github.com/stretchr/graceful"
 	"golang.org/x/net/context"
 )

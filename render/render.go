@@ -42,7 +42,7 @@ import (
 	"net/http"
 	"path"
 
-	"github.com/mijia/sweb/log"
+	"github.com/fynaris/sweb/log"
 	"github.com/oxtoacart/bpool"
 )
 

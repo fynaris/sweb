@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mijia/sweb/log"
+	"github.com/fynaris/sweb/log"
 	"github.com/paulbellamy/ratecounter"
 	"golang.org/x/net/context"
 )

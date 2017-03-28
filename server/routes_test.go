@@ -31,11 +31,11 @@ func TestRouterFuncs(t *testing.T) {
 	cases := []RCase{
 		RCase{"Index", []interface{}{}, "/"},
 		RCase{"Index", []interface{}{1}, "/"},
-		RCase{"Param1", []interface{}{"mijia"}, "/p1/mijia"},
-		RCase{"Param2", []interface{}{"mijia", "hello"}, "/p2/mijia/hello"},
-		RCase{"Param2x", []interface{}{"mijia", "hello"}, "/p2x/mijia/edit/hello"},
+		RCase{"Param1", []interface{}{"fynaris"}, "/p1/fynaris"},
+		RCase{"Param2", []interface{}{"fynaris", "hello"}, "/p2/fynaris/hello"},
+		RCase{"Param2x", []interface{}{"fynaris", "hello"}, "/p2x/fynaris/edit/hello"},
 		RCase{"Param1", []interface{}{}, "/p1/:name"},
-		RCase{"Param1", []interface{}{"mijia", "and"}, "/p1/mijia"},
+		RCase{"Param1", []interface{}{"fynaris", "and"}, "/p1/fynaris"},
 		RCase{"Star", []interface{}{"/yeah/you/got/it"}, "/star/yeah/you/got/it"},
 	}
 

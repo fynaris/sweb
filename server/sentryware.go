@@ -7,7 +7,7 @@ import (
 	"runtime"
 
 	"github.com/getsentry/raven-go"
-	"github.com/mijia/sweb/log"
+	"github.com/fynaris/sweb/log"
 	"golang.org/x/net/context"
 )
 

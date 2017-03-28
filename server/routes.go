@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/mijia/sweb/log"
+	"github.com/fynaris/sweb/log"
 )
 
 const (

@@ -49,7 +49,7 @@ A basic middleware would be like:
 	}
 
 Please checkout the detail godoc for the subpackages:
-  * http://godoc.org/github.com/mijia/sweb/server
-  * http://godoc.org/github.com/mijia/sweb/render
+  * http://godoc.org/github.com/fynaris/sweb/server
+  * http://godoc.org/github.com/fynaris/sweb/render
 */
 package sweb
